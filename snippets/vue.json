@@ -1,0 +1,137 @@
+{
+  "Vue Single File Component": {
+    "prefix": "template",
+    "body": [
+      "<script>",
+      "export default {",
+      "\tdata() {",
+      "\t\treturn {",
+      "",
+      "\t\t}",
+      "\t},",
+      "}",
+      "</script>",
+      "",
+      "<template>",
+      "\t${0}",
+      "</template>"
+    ],
+    "description": "base for vue file"
+  },
+  "Vue Composition": {
+    "prefix": "script",
+    "body": [
+      "<script>",
+      "export default {",
+      "\tsetup() {",
+      "\t\t${0}",
+      "\t}",
+      "}",
+      "</script>",
+      "",
+      "<template>",
+      "",
+      "</template>"
+    ],
+    "description": "vue composition"
+  },
+  "Vue Composition (TS)": {
+    "prefix": "script:ts",
+    "body": [
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tsetup() {",
+      "\t\t${0}",
+      "\t},",
+      "})",
+      "</script>",
+      "",
+      "<template>",
+      "",
+      "</template>"
+    ],
+    "description": "vue composition (ts)"
+  },
+  "Vue Setup SFC": {
+    "prefix": "setup",
+    "body": [
+      "<script setup>",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>${0}</div>",
+      "</template>"
+    ],
+    "description": "vue setup sfc"
+  },
+  "Vue Setup SFC (ts)": {
+    "prefix": "setup:ts",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>${0}</div>",
+      "</template>"
+    ],
+    "description": "vue setup sfc (ts)"
+  },
+  "Style scoped": {
+    "prefix": "style",
+    "body": [
+      "<style lang=\"${1|css,postcss,scss,sass,less,stylus|}\" scoped>",
+      "\t",
+      "</style>"
+    ],
+    "description": "scoped style"
+  },
+  "Style scoped postcss": {
+    "prefix": "postcss",
+    "body": [
+      "<style lang=\"postcss\" scoped>",
+      "\t${0}",
+      "</style>"
+    ],
+    "description": "scoped style postcss"
+  },
+  "Style scoped sass": {
+    "prefix": "sass",
+    "body": [
+      "<style lang=\"sass\" scoped>",
+      "\t${0}",
+      "</style>"
+    ],
+    "description": "scoped style sass"
+  },
+  "Style scoped scss": {
+    "prefix": "scss",
+    "body": [
+      "<style lang=\"scss\" scoped>",
+      "\t${0}",
+      "</style>"
+    ],
+    "description": "scoped style scss"
+  },
+  "Style scoped stylus": {
+    "prefix": "stylus",
+    "body": [
+      "<style lang=\"stylus\" scoped>",
+      "\t${0}",
+      "</style>"
+    ],
+    "description": "scoped style stylus"
+  },
+  "Style scoped less": {
+    "prefix": "less",
+    "body": [
+      "<style lang=\"less\" scoped>",
+      "\t${0}",
+      "</style>"
+    ],
+    "description": "scoped style less"
+  }
+}

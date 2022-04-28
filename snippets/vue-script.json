@@ -1,0 +1,66 @@
+{
+  "Vue Plugin": {
+    "prefix": "vplugin",
+    "body": [
+      "export default {",
+      "\tinstall: (app, options) => {",
+      "\t\tapp.config.globalProperties.$${1:name} = (key) => {}",
+      "",
+      "\t\tapp.provide('${1:name}', options)",
+      "\t},",
+      "}",
+      ""
+    ],
+    "description": "base for vue 3 plugin File"
+  },
+  "Vue Computed": {
+    "prefix": "vcomputed",
+    "body": [
+      "computed(() => ${0})"
+    ],
+    "description": "vue computed"
+  },
+  "Vue Watch": {
+    "prefix": "vwatch",
+    "body": [
+      "watch(${1:what}, (newValue, oldValue) => {",
+      "\t${0}",
+      "})"
+    ],
+    "description": "vue watch"
+  },
+  "Vue Watch Effect": {
+    "prefix": "veffect",
+    "body": [
+      "watchEffect(() => {${0}})"
+    ],
+    "description": "vue watch effect"
+  },
+  "Vue Mounted": {
+    "prefix": "vmounted",
+    "body": [
+      "onMounted(() => {",
+      "\t${0}",
+      "})"
+    ],
+    "description": "vue onMounted"
+  },
+  "Vue Unmount": {
+    "prefix": "vunmounted",
+    "body": [
+      "onUnmounted(() => {",
+      "\t${0}",
+      "})"
+    ],
+    "description": "vue onUnmounted"
+  },
+  "Vue Updated": {
+    "prefix": "vupdated",
+    "body": [
+      "onUpdated(() => {",
+      "\t${0}",
+      "})"
+    ],
+    "description": "vue onUpdated"
+  }
+}

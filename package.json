@@ -1,0 +1,62 @@
+{
+  "name": "indielayer-vue-snippets",
+  "displayName": "VSCode Vue Snippets",
+  "description": "Vue 3 and Vue 2 Code Snippets Extension",
+  "version": "1.0.0",
+  "publisher": "indielayer",
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "scripts": {
+    "list": "npx vsce ls",
+    "package": "npx vsce package",
+    "publish": "npx vsce publish"
+  },
+  "galleryBanner": {
+    "color": "#222937",
+    "theme": "dark"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "images/icon.png",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/vue.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/vue-template.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/vue-script.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-script.json"
+      }
+    ]
+  },
+  "keywords": [
+    "vscode",
+    "Indielayer",
+    "Vue Snippets",
+    "Vue",
+    "Vue 2",
+    "Vue 3",
+    "Composition API"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indielayer/vscode-vue-snippets.git"
+  },
+  "author": "João Teixeira <joao@indielayer.com> (https://indielayer.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indielayer/vscode-vue-snippets/issues"
+  },
+  "homepage": "https://github.com/indielayer/vscode-vue-snippets#readme"
+}

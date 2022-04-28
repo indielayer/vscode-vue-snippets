@@ -1,0 +1,71 @@
+{
+  "Vue Template": {
+    "prefix": "template",
+    "body": [
+      "<template>",
+      "\t${0}",
+      "</template>"
+    ],
+    "description": "empty template"
+  },
+  "Vue Slot": {
+    "prefix": "slot",
+    "body": ["<slot></slot>"],
+    "description": "slot"
+  },
+  "Vue v-for": {
+    "prefix": "vfor",
+    "body": [
+      "v-for=\"${1:item} in ${1:item}s\" :key=\"${1:item}.id\""
+    ],
+    "description": "vfor statement"
+  },
+  "Vue v-memo": {
+    "prefix": "vmemo",
+    "body": [
+      "v-memo=\"[]\""
+    ],
+    "description": "memoize a sub-tree of the template"
+  },
+  "Vue v-model Directive": {
+    "prefix": "vmodel",
+    "body": ["v-model=\"${1:data}\""],
+    "description": "v-model directive"
+  },
+
+  "Vue Teleport": {
+    "prefix": "vteleport",
+    "body": [
+      "<Teleport to=\"${1:body}\">",
+      "\t${0}",
+      "</Teleport>"
+    ],
+    "description": "vue teleport"
+  },
+  "Vue Transition Component with JavaScript Hooks": {
+    "prefix": "vtransition",
+    "body": [
+      "<Transition",
+      "\t:css=\"false\"",
+      "\t@before-enter=\"onBeforeEnter\"",
+      "\t@enter=\"onEnter\"",
+      "\t@after-enter=\"onAfterEnter\"",
+      "\t@before-leave=\"onBeforeLeave\"",
+      "\t@leave=\"onLeave\"",
+      "\t@after-leave=\"onAfterLeave\"",
+      ">",
+      "\t${0}",
+      "</Transition>"
+    ],
+    "description": "transition component js hooks"
+  },
+  "Vue KeepAlive Component": {
+    "prefix": "vkeepalive",
+    "body": [
+      "<KeepAlive include=\"\" :max=\"10\">",
+      "\t<component :is=\"${1:current}\" />",
+      "</KeepAlive>"
+    ],
+    "description": "keep alive component"
+  }
+}
