@@ -34,6 +34,7 @@ This extension for Visual Studio Code add snippets for Vue 2 and Vue 3.
 | Snippet | Purpose |
 | - | - |
 | `template` | Empty template tag |
+| `component` | Dynamic component |
 | `slot` | Empty slot tag |
 | `vfor` | v-for directive |
 | `vmodel` | v-model directive |

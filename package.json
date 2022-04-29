@@ -2,7 +2,7 @@
   "name": "indielayer-vue-snippets",
   "displayName": "VSCode Vue Snippets",
   "description": "Vue 3 and Vue 2 Code Snippets Extension",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "indielayer",
   "engines": {
     "vscode": "^1.17.0"

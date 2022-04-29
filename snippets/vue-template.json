@@ -13,6 +13,14 @@
     "body": ["<slot></slot>"],
     "description": "slot"
   },
+  "Vue Dynamic Component": {
+    "prefix": "component",
+    "body": [
+      "<component is=\"${1}\">",
+      "\t${0}",
+      "</component>"],
+    "description": "dynamic component"
+  },
   "Vue v-for": {
     "prefix": "vfor",
     "body": [
